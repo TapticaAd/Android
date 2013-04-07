@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+			<Button
+			    android:id="@+id/fullScreenButton"
+			    android:layout_width="112dp"
+			    android:layout_height="wrap_content"
+			    android:text="@string/fullScreen" />
+
+			<Button
+			    android:id="@+id/button_request_new_ad"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="request new ad" />
+
+			<TextView android:layout_width="fill_parent" android:id="@+id/text_view"
+				android:layout_height="wrap_content" android:text="the ad is below this line:" />
+
+			<FrameLayout android:id="@+id/adview_container"
+				android:layout_width="wrap_content" android:layout_height="wrap_content">
+			</FrameLayout>
+
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>
