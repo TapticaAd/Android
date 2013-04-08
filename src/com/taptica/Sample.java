@@ -40,11 +40,6 @@ public class Sample extends Activity
 	public void prepareAd(TapticaAdView adView)
 	{
 		// getting most updated settings from the views:
-//		enableTestMode = checkBoxTestmode.isChecked();
-//		keywords = editTextKeywords.getText().toString();
-//		applicationId = (String)spinnerApplicationId.getSelectedItem();
-//		interests = editTextInterests.getText().toString();
-//		ethnicity = editTextEthnicity.getText().toString();
 		// must have clues:
 		TapticaAdManager.settapticaAdApplicationId(this,applicationId);
 		// optional clues:
@@ -64,20 +59,6 @@ public class Sample extends Activity
 
 	private void prepareViews()
 	{
-//		editTextEthnicity = (EditText) findViewById(R.id.edittext_ethnicity);
-//		editTextEthnicity.setText(ethnicity);
-//		checkBoxTestmode = (CheckBox) findViewById(R.id.checkbox_testmode);
-//		checkBoxTestmode.setChecked(enableTestMode);
-//		editTextKeywords = (EditText) findViewById(R.id.edittext_keywords);
-//		editTextKeywords.setText(keywords);
-//		spinnerApplicationId = (Spinner)findViewById(R.id.spinnerApplicationId);
-//		
-//		
-//		ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.GIUDS,android.R.layout.simple_spinner_item);
-//		adapter.setDropDownViewResource(R.layout.spinner_item);
-//		spinnerApplicationId.setAdapter(adapter);
-//		editTextInterests = (EditText) findViewById(R.id.edittext_interests);
-//		editTextInterests.setText(interests);
 
 		
 		adView = new TapticaAdView(this);
@@ -110,20 +91,6 @@ public class Sample extends Activity
 			}
 		});
 
-
-		
-		
-		
-//		Button buttonRequestOfferWallAd = (Button) findViewById(R.id.offerWallButton);
-//		buttonRequestOfferWallAd.setOnClickListener(new View.OnClickListener()
-//		{
-//			@Override
-//			public void onClick(View v)
-//			{
-//				prepareAd(adView);
-//				adView.requestOfferWallAd();
-//			}
-//		});
 
 		
 		
